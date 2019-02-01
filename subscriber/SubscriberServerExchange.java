@@ -7,7 +7,7 @@ import java.util.function.Consumer;
  * @param <T> the type of consumer
  */
 
-public interface ConsumerExchange<T> extends Consumer<T> {
+public interface SubscriberServerExchange<T> extends Consumer<T> {
 
   @Override
   void	accept(T t);
