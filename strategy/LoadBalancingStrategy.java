@@ -28,4 +28,11 @@ public interface LoadBalancingStrategy {
    * @return List<Processor> represents the list of processors balancing the load
    */
   List<Processor> listProcessor();
+  
+  
+  /**
+   * List all the processsor managing the load and unreachable
+   * @return List<Processor> represents the list of processors balancing the load and unreachable
+   */
+  List<Processor> listAllProcessor();
 }
